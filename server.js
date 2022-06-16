@@ -1,4 +1,4 @@
-const PORT = 3000;
+const PORT = process.eve.PORT || 3000;
 const path = require('path');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
